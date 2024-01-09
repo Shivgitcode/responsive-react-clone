@@ -1,5 +1,5 @@
 import React from "react";
-import { netflix } from "../assets";
+import { netflix } from "../../assets";
 import { IoLanguage } from "react-icons/io5";
 export default function Navbar() {
   return (

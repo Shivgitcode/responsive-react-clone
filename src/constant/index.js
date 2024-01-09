@@ -27,4 +27,43 @@ const desc = [
   },
 ];
 
+export const questions = [
+  {
+    id: 1,
+    heading: "What is Netflix?",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+  {
+    id: 2,
+    heading: "How much does Netflix cost?",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+  {
+    id: 3,
+    heading: "Where can I watch?",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+  {
+    id: 4,
+    heading: "How do I cancel?",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+  {
+    id: 5,
+    heading: "What can I watch on Netflix?",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+  {
+    id: 6,
+    heading: "Is Netflix good for kids",
+    desc: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!",
+    opacity: true,
+  },
+];
+
 export default desc;

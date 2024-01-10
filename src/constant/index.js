@@ -66,4 +66,22 @@ export const questions = [
   },
 ];
 
+export const links = [
+  "FAQ",
+  "Account",
+  "Investor Relations",
+  "Ways to Watch",
+  "Privacy",
+  "Corporate Information",
+  "Speed Test",
+  "Only on Netflix",
+  "Help Center",
+  "Media Center",
+  "Jobs",
+  "Terms of Use",
+  "Cookie Preferences",
+  "Contact Us",
+  "Legal Notices",
+];
+
 export default desc;

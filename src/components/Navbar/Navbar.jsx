@@ -4,8 +4,8 @@ import { IoLanguage } from "react-icons/io5";
 export default function Navbar() {
   return (
     <nav className="px-[32px] mx-auto py-[24px] flex flex-row justify-between items-center ">
-      <div className="h-fit w-full flex flex-row justify-between items-center mt-[-20px]">
-        <img src={netflix} alt="" className="w-[159px] h-[84px]" />
+      <div className="h-fit w-full flex flex-row justify-between items-center max-h-[40px]">
+        <img src={netflix} alt="" className="w-[89px] h-fit" />
         <div className="flex  justify-center items-baseline gap-x-[8px] ">
           <div className=" px-[36px] py-[6px] rounded-sm border-[1px]  flex justify-between items-center relative bg-[#111010]">
             <IoLanguage

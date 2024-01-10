@@ -10,7 +10,7 @@ export default function Hero() {
           <Navbar></Navbar>
         </div>
 
-        <div className="flex flex-col items-center justify-between w-[92%] mx-auto ">
+        <div className="flex flex-col items-center justify-between w-[92%] mx-auto mt-[83px] ">
           <h1 className="font-bold font-netflix text-center text-white text-[32px]">
             The biggest Indian hits. The best Indian stories. All streaming
             here.

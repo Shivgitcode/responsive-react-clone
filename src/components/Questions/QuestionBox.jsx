@@ -26,13 +26,13 @@ export default function QuestionBox({ ques }) {
           )}
         </div>
         <div
-          className={`bg-[#2d2d2d] p-[24px] ${
+          className={` grid place-items-center bg-[#2d2d2d] ${
             ques.opacity
               ? " scale-y-0 opacity-0 h-0 absolute"
               : "scale-y-100 opacity-100 h-[100%]"
           } transition-all duration-200  origin-top`}
         >
-          <span className="font-netflix text-[18px] text-white font-normal ">
+          <span className="font-netflix text-[18px] p-[24px] w-[95%] text-white font-normal ">
             {ques.desc}
           </span>
         </div>

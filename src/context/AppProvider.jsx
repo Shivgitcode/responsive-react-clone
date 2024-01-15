@@ -6,6 +6,7 @@ export const AppProvider = createContext();
 
 export default function AppProviderData({ children }) {
   const [show, setShow] = useState(questions);
+  const [layout, setLayout] = useState(true);
   function handleDesc(id) {
     setShow((prev) => {
       return prev.map((el) => {
@@ -22,6 +23,8 @@ export default function AppProviderData({ children }) {
     show,
     setShow,
     handleDesc,
+    layout,
+    setLayout,
   };
 
   return <AppProvider.Provider value={value}>{children}</AppProvider.Provider>;

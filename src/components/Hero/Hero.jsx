@@ -10,15 +10,14 @@ export default function Hero() {
           <Navbar></Navbar>
         </div>
 
-        <div className="flex flex-col items-center justify-between w-[92%] mx-auto mt-[83px] ">
-          <h1 className="font-bold font-netflix text-center text-white text-[32px]">
-            The biggest Indian hits. The best Indian stories. All streaming
-            here.
+        <div className="flex flex-col items-center justify-between w-[92%] mx-auto mt-[83px] lg:mt-[188px] lg:mb-[110px] lg:w-[47%]">
+          <h1 className="font-bold font-netflix text-center text-white text-[32px] lg:text-[48px] lg:w-full">
+            Unlimited movies, TV shows and more
           </h1>
-          <p className="mt-[16px] text-[18px] text-white font-normal font-netflix">
+          <p className="mt-[16px] text-[18px] text-white font-normal font-netflix lg:text-[24px]">
             Watch anywhere. Cancel anytime.
           </p>
-          <p className="text-center flex flex-col items-center font-netflix leading-[27px] text-white font-normal text-[18px] w-[90%] mt-[24px] gap-[16px]">
+          <p className="text-center flex flex-col items-center font-netflix leading-[27px] text-white font-normal text-[18px] w-[90%] mt-[24px] gap-[16px] lg:text-[20px] lg:w-full">
             Ready to watch? Enter your email to create or restart your
             membership.
             <CTA></CTA>

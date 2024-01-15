@@ -1,6 +1,7 @@
 import React from "react";
 import { links } from "../../constant";
 import FooterLink from "./FooterLink";
+import LanguageButton from "../Navbar/LanguageButton";
 
 export default function Footer() {
   return (
@@ -9,11 +10,15 @@ export default function Footer() {
         <p className="mb-[12px] font-netflix text-[16px] text-white/70 w-full">
           Questions? Call 000-800-919-1694
         </p>
-        <div className="flex flex-col flex-wrap w-full max-h-[330px]">
+        <div className="flex flex-col flex-wrap w-full max-h-[330px] mb-[24px]">
           {links.map((el, idx) => {
             return <FooterLink key={idx} el={el}></FooterLink>;
           })}
         </div>
+        <div>
+          <LanguageButton></LanguageButton>
+        </div>
+        <p className="text-white/70 mt-[24px]">Netflix India</p>
       </div>
     </div>
   );

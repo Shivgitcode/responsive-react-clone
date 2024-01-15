@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className=" bg-netflixImg  w-full h-full ">
       <div className=" z-[2] w-full h-full  bg-gradient-to-t from-[rgba(0,0,0,0.8)] from-0% via-[rgba(0,0,0,0)] via-60% to-[rgba(0,0,0,0.8)] to-100% bg-[rgba(0,0,0,0.4)] bg-cover pb-[74px]">
-        <div className="w-full">
+        <div className="w-full lg:w-[67%] lg:mx-auto">
           <Navbar></Navbar>
         </div>
 
